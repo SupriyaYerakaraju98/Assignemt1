@@ -54,9 +54,9 @@ for i in range(1, 4):
 
 &nbsp;   for j in range(1, i + 1):
 
-&nbsp;       with open(f"{i}/{j}.txt", "w") as f:
+&nbsp;         with open(f"{i}/{j}.txt", "w") as f:
 
-&nbsp;       f.write(f"This is file {j} inside directory {i}\\n")
+&nbsp;         f.write(f"This is file {j} inside directory {i}\\n")
 
 
 
